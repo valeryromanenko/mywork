@@ -1,0 +1,58 @@
+header {
+  padding: 15px 0;
+  background-color: #80ff00;
+  border: 5px solid lime;
+  height: 200px;
+}
+
+header .logo {
+  padding: 10px;
+  display: inline-block;
+  -webkit-text-decoration: yellow;
+          text-decoration: yellow;
+  color: yellow;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-left: 60px;
+}
+
+header .logo:hover {
+  color: #ffff4d;
+}
+
+header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+  margin-left: 50%;
+}
+
+.nav__link {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

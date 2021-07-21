@@ -1,0 +1,40 @@
+// $accentColor: yellow;
+@import '../vars/vars';
+@mixin marginLeft {
+    margin-left: 60px;
+}
+
+header {
+    padding: 15px 0;
+    background-color: adjust-hue($accentColor, 30);
+    border: 5px solid adjust-hue($accentColor, 60);
+    height: 200px;
+    .logo {
+        padding: 10px;
+        display: inline-block;
+        text-decoration: $accentColor;
+        color: $accentColor;
+        transition: .5s;
+        @include marginLeft;
+        &:hover {
+            color: lighten($accentColor, 15);
+        }
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        margin-left: 50%;
+    }
+}
+.nav__link {
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
