@@ -5,7 +5,9 @@
 }
 body {
     width: 100%;
-
+}
+main {
+    width: 100%;
 }
 header {
     max-width: 1200px;
@@ -82,5 +84,16 @@ align-items: center;
     width: 20%;
     height: 4px;
     background-color: #fff;
+    position: relative;
+}
+.line1::after {
+    content: '';
+    // width: 100px;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    // top: 503px;
+    // left: 57px;
+    right: 59%;
 }
 }

@@ -2,6 +2,10 @@ body {
   width: 100%;
 }
 
+main {
+  width: 100%;
+}
+
 header {
   max-width: 1200px;
   padding: 15px 0;
@@ -122,5 +126,14 @@ header nav {
   width: 20%;
   height: 4px;
   background-color: #fff;
+  position: relative;
+}
+
+.section1 .line1::after {
+  content: '';
+  height: 4px;
+  background-color: red;
+  position: absolute;
+  right: 59%;
 }
 /*# sourceMappingURL=style.css.map */
